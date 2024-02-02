@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA26D7F32B6BCDBF003F5AD3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D7F22B6BCDBF003F5AD3 /* NetworkManager.swift */; };
+		FA26D7F52B6BD01A003F5AD3 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D7F42B6BD01A003F5AD3 /* ImageView.swift */; };
+		FA26D7F72B6BDE25003F5AD3 /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D7F62B6BDE25003F5AD3 /* ImageLabelView.swift */; };
+		FA26D7F92B6BE3E4003F5AD3 /* ReviewAndRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D7F82B6BE3E4003F5AD3 /* ReviewAndRatingView.swift */; };
+		FA26D7FB2B6C2BA0003F5AD3 /* DiscountLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D7FA2B6C2BA0003F5AD3 /* DiscountLabelView.swift */; };
+		FA26D7FD2B6C2D68003F5AD3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D7FC2B6C2D68003F5AD3 /* HeaderView.swift */; };
+		FA26D7FF2B6C2F46003F5AD3 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D7FE2B6C2F46003F5AD3 /* CountryView.swift */; };
+		FA26D8012B6C32D2003F5AD3 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D8002B6C32D2003F5AD3 /* DescriptionView.swift */; };
+		FA26D8032B6C35D4003F5AD3 /* ProductCharacteristicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D8022B6C35D4003F5AD3 /* ProductCharacteristicsView.swift */; };
+		FA26D8052B6C3AFD003F5AD3 /* NutritionalElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D8042B6C3AFD003F5AD3 /* NutritionalElementView.swift */; };
+		FA26D8072B6C425A003F5AD3 /* HeadlineButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D8062B6C425A003F5AD3 /* HeadlineButtonView.swift */; };
+		FA26D8092B6C55F8003F5AD3 /* ScrollingReviewTilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D8082B6C55F8003F5AD3 /* ScrollingReviewTilesView.swift */; };
+		FA26D80B2B6C5790003F5AD3 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D80A2B6C5790003F5AD3 /* RatingView.swift */; };
+		FA26D80D2B6C61D1003F5AD3 /* ReviewTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26D80C2B6C61D1003F5AD3 /* ReviewTileView.swift */; };
+		FA675B152B6D339F00EBAAA5 /* FeedbackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA675B142B6D339F00EBAAA5 /* FeedbackButtonView.swift */; };
+		FA675B192B6D61C600EBAAA5 /* PriceAndQuantityBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA675B182B6D61C600EBAAA5 /* PriceAndQuantityBarView.swift */; };
+		FA675B1B2B6D635C00EBAAA5 /* QuantityControlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA675B1A2B6D635C00EBAAA5 /* QuantityControlButtonView.swift */; };
+		FA9DD7AA2B6D7879007E81E4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DD7A92B6D7879007E81E4 /* DetailView.swift */; };
+		FAA742E52B6ACFB2004693BA /* MySparApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA742E42B6ACFB2004693BA /* MySparApp.swift */; };
+		FAA742E72B6ACFB2004693BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA742E62B6ACFB2004693BA /* ContentView.swift */; };
+		FAA742E92B6ACFB4004693BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA742E82B6ACFB4004693BA /* Assets.xcassets */; };
+		FAA742EC2B6ACFB4004693BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA742EB2B6ACFB4004693BA /* Preview Assets.xcassets */; };
+		FAA742F32B6AD1B4004693BA /* CustomBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA742F22B6AD1B4004693BA /* CustomBackButtonView.swift */; };
+		FAA742FB2B6AE4D0004693BA /* ToolbarButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA742FA2B6AE4D0004693BA /* ToolbarButtonView.swift */; };
+		FAA742FD2B6AF267004693BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA742FC2B6AF267004693BA /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA26D7F22B6BCDBF003F5AD3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA26D7F42B6BD01A003F5AD3 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		FA26D7F62B6BDE25003F5AD3 /* ImageLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelView.swift; sourceTree = "<group>"; };
+		FA26D7F82B6BE3E4003F5AD3 /* ReviewAndRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewAndRatingView.swift; sourceTree = "<group>"; };
+		FA26D7FA2B6C2BA0003F5AD3 /* DiscountLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountLabelView.swift; sourceTree = "<group>"; };
+		FA26D7FC2B6C2D68003F5AD3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA26D7FE2B6C2F46003F5AD3 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		FA26D8002B6C32D2003F5AD3 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		FA26D8022B6C35D4003F5AD3 /* ProductCharacteristicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCharacteristicsView.swift; sourceTree = "<group>"; };
+		FA26D8042B6C3AFD003F5AD3 /* NutritionalElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionalElementView.swift; sourceTree = "<group>"; };
+		FA26D8062B6C425A003F5AD3 /* HeadlineButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineButtonView.swift; sourceTree = "<group>"; };
+		FA26D8082B6C55F8003F5AD3 /* ScrollingReviewTilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingReviewTilesView.swift; sourceTree = "<group>"; };
+		FA26D80A2B6C5790003F5AD3 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		FA26D80C2B6C61D1003F5AD3 /* ReviewTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTileView.swift; sourceTree = "<group>"; };
+		FA675B142B6D339F00EBAAA5 /* FeedbackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackButtonView.swift; sourceTree = "<group>"; };
+		FA675B182B6D61C600EBAAA5 /* PriceAndQuantityBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceAndQuantityBarView.swift; sourceTree = "<group>"; };
+		FA675B1A2B6D635C00EBAAA5 /* QuantityControlButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantityControlButtonView.swift; sourceTree = "<group>"; };
+		FA9DD7A92B6D7879007E81E4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FAA742E12B6ACFB2004693BA /* MySpar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA742E42B6ACFB2004693BA /* MySparApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySparApp.swift; sourceTree = "<group>"; };
+		FAA742E62B6ACFB2004693BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA742E82B6ACFB4004693BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA742EB2B6ACFB4004693BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA742F22B6AD1B4004693BA /* CustomBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButtonView.swift; sourceTree = "<group>"; };
+		FAA742FA2B6AE4D0004693BA /* ToolbarButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarButtonView.swift; sourceTree = "<group>"; };
+		FAA742FC2B6AF267004693BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA742DE2B6ACFB2004693BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA9DD7AB2B6D7D8A007E81E4 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				FAA742E62B6ACFB2004693BA /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		FA9DD7AC2B6D7D9B007E81E4 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DD7A92B6D7879007E81E4 /* DetailView.swift */,
+				FA9DD7AD2B6D7DA7007E81E4 /* Components */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		FA9DD7AD2B6D7DA7007E81E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FA675B182B6D61C600EBAAA5 /* PriceAndQuantityBarView.swift */,
+				FA675B1A2B6D635C00EBAAA5 /* QuantityControlButtonView.swift */,
+				FA675B142B6D339F00EBAAA5 /* FeedbackButtonView.swift */,
+				FA26D8082B6C55F8003F5AD3 /* ScrollingReviewTilesView.swift */,
+				FA26D80C2B6C61D1003F5AD3 /* ReviewTileView.swift */,
+				FA26D80A2B6C5790003F5AD3 /* RatingView.swift */,
+				FA26D8062B6C425A003F5AD3 /* HeadlineButtonView.swift */,
+				FA26D8022B6C35D4003F5AD3 /* ProductCharacteristicsView.swift */,
+				FA26D8042B6C3AFD003F5AD3 /* NutritionalElementView.swift */,
+				FA26D8002B6C32D2003F5AD3 /* DescriptionView.swift */,
+				FA26D7FE2B6C2F46003F5AD3 /* CountryView.swift */,
+				FA26D7FC2B6C2D68003F5AD3 /* HeaderView.swift */,
+				FA26D7FA2B6C2BA0003F5AD3 /* DiscountLabelView.swift */,
+				FA26D7F82B6BE3E4003F5AD3 /* ReviewAndRatingView.swift */,
+				FA26D7F42B6BD01A003F5AD3 /* ImageView.swift */,
+				FA26D7F62B6BDE25003F5AD3 /* ImageLabelView.swift */,
+				FAA742F22B6AD1B4004693BA /* CustomBackButtonView.swift */,
+				FAA742FA2B6AE4D0004693BA /* ToolbarButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FA9DD7AE2B6D7DCF007E81E4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA26D7F22B6BCDBF003F5AD3 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA9DD7AF2B6D7F3D007E81E4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAA742FC2B6AF267004693BA /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FAA742D82B6ACFB2004693BA = {
+			isa = PBXGroup;
+			children = (
+				FAA742E32B6ACFB2004693BA /* MySpar */,
+				FAA742E22B6ACFB2004693BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA742E22B6ACFB2004693BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA742E12B6ACFB2004693BA /* MySpar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA742E32B6ACFB2004693BA /* MySpar */ = {
+			isa = PBXGroup;
+			children = (
+				FAA742E42B6ACFB2004693BA /* MySparApp.swift */,
+				FA9DD7AB2B6D7D8A007E81E4 /* ContentView */,
+				FA9DD7AC2B6D7D9B007E81E4 /* DetailView */,
+				FA9DD7AE2B6D7DCF007E81E4 /* Services */,
+				FA9DD7AF2B6D7F3D007E81E4 /* Utilities */,
+				FAA742E82B6ACFB4004693BA /* Assets.xcassets */,
+				FAA742EA2B6ACFB4004693BA /* Preview Content */,
+			);
+			path = MySpar;
+			sourceTree = "<group>";
+		};
+		FAA742EA2B6ACFB4004693BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA742EB2B6ACFB4004693BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA742E02B6ACFB2004693BA /* MySpar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA742EF2B6ACFB4004693BA /* Build configuration list for PBXNativeTarget "MySpar" */;
+			buildPhases = (
+				FAA742DD2B6ACFB2004693BA /* Sources */,
+				FAA742DE2B6ACFB2004693BA /* Frameworks */,
+				FAA742DF2B6ACFB2004693BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySpar;
+			productName = MySpar;
+			productReference = FAA742E12B6ACFB2004693BA /* MySpar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA742D92B6ACFB2004693BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					FAA742E02B6ACFB2004693BA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = FAA742DC2B6ACFB2004693BA /* Build configuration list for PBXProject "MySpar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA742D82B6ACFB2004693BA;
+			productRefGroup = FAA742E22B6ACFB2004693BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA742E02B6ACFB2004693BA /* MySpar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA742DF2B6ACFB2004693BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA742EC2B6ACFB4004693BA /* Preview Assets.xcassets in Resources */,
+				FAA742E92B6ACFB4004693BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA742DD2B6ACFB2004693BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA26D7FB2B6C2BA0003F5AD3 /* DiscountLabelView.swift in Sources */,
+				FA26D7F32B6BCDBF003F5AD3 /* NetworkManager.swift in Sources */,
+				FA26D8012B6C32D2003F5AD3 /* DescriptionView.swift in Sources */,
+				FA26D80B2B6C5790003F5AD3 /* RatingView.swift in Sources */,
+				FA26D80D2B6C61D1003F5AD3 /* ReviewTileView.swift in Sources */,
+				FAA742F32B6AD1B4004693BA /* CustomBackButtonView.swift in Sources */,
+				FA675B192B6D61C600EBAAA5 /* PriceAndQuantityBarView.swift in Sources */,
+				FA26D8092B6C55F8003F5AD3 /* ScrollingReviewTilesView.swift in Sources */,
+				FA26D8072B6C425A003F5AD3 /* HeadlineButtonView.swift in Sources */,
+				FA675B1B2B6D635C00EBAAA5 /* QuantityControlButtonView.swift in Sources */,
+				FA26D7FF2B6C2F46003F5AD3 /* CountryView.swift in Sources */,
+				FAA742E72B6ACFB2004693BA /* ContentView.swift in Sources */,
+				FAA742FD2B6AF267004693BA /* Constants.swift in Sources */,
+				FAA742E52B6ACFB2004693BA /* MySparApp.swift in Sources */,
+				FA26D8032B6C35D4003F5AD3 /* ProductCharacteristicsView.swift in Sources */,
+				FA26D8052B6C3AFD003F5AD3 /* NutritionalElementView.swift in Sources */,
+				FA26D7F92B6BE3E4003F5AD3 /* ReviewAndRatingView.swift in Sources */,
+				FA9DD7AA2B6D7879007E81E4 /* DetailView.swift in Sources */,
+				FA675B152B6D339F00EBAAA5 /* FeedbackButtonView.swift in Sources */,
+				FA26D7FD2B6C2D68003F5AD3 /* HeaderView.swift in Sources */,
+				FA26D7F72B6BDE25003F5AD3 /* ImageLabelView.swift in Sources */,
+				FA26D7F52B6BD01A003F5AD3 /* ImageView.swift in Sources */,
+				FAA742FB2B6AE4D0004693BA /* ToolbarButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAA742ED2B6ACFB4004693BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA742EE2B6ACFB4004693BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA742F02B6ACFB4004693BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MySpar/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WNGG93AJL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhulai-Alex.MySpar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAA742F12B6ACFB4004693BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MySpar/Preview Content\"";
+				DEVELOPMENT_TEAM = 5WNGG93AJL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhulai-Alex.MySpar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA742DC2B6ACFB2004693BA /* Build configuration list for PBXProject "MySpar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA742ED2B6ACFB4004693BA /* Debug */,
+				FAA742EE2B6ACFB4004693BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA742EF2B6ACFB4004693BA /* Build configuration list for PBXNativeTarget "MySpar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA742F02B6ACFB4004693BA /* Debug */,
+				FAA742F12B6ACFB4004693BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA742D92B6ACFB2004693BA /* Project object */;
+}
