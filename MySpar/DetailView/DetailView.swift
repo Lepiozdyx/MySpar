@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DetailView: View {
+    
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
